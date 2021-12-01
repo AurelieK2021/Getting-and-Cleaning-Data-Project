@@ -87,7 +87,7 @@ Data_combined
 	Links subject, activity labels and recorded features for the training set and the test set
 Data_extracted
 	Matrix with 10299 rows/entries and 88 columns
-	Obtained by selecting some specific columns of Data_combined (X_merged, y_merged and mean/standard deviation columns for each measurement) using cbind, contains ("mean") and contains ("std") functions
+	Obtained by selecting some specific columns of Data_combined (X_merged, y_merged and mean/standard deviation columns for each measurement) using cbind, contains 	("mean") and contains ("std") functions
 	Activity labels initially in y_merged were replaced by descriptive names from activity_labels$activity by matching y_merged and activity_labels$label vectors
 	Columns 3 ~ 88 (mean/standard deviation for each measurement) names were renamed as below using gsub function :
 		"Acc" <- "Accelerometer"
